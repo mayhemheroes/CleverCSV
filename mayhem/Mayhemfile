@@ -1,0 +1,5 @@
+project: clevercsv
+target: read-fuzz
+cmds:
+  - cmd: /src/mayhem/fuzz_reader.py
+    libfuzzer: true

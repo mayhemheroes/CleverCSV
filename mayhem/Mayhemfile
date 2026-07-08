@@ -1,0 +1,8 @@
+# Mayhem target: CleverCSV reader (Atheris/libFuzzer harness).
+project: clevercsv
+target: read-fuzz
+
+cmds:
+  - cmd: /mayhem/read-fuzz
+    libfuzzer: true
+    timeout: 15
